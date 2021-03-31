@@ -2,7 +2,7 @@ import discord
 import os
 from discord.ext import commands, tasks
 
-client = commands.Bot(command_prefix='., case_insensitive=True)
+client = commands.Bot(command_prefix='.', case_insensitive=True)
 
 
 @client.event
